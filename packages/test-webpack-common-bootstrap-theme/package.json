@@ -9,7 +9,7 @@
   "author": "IETF",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@ietf-tools/common-bootstrap-theme": "0.0.1",
+    "@ietf-tools/common-bootstrap-theme": "0.0.3",
     "bootstrap": "5.1",
     "css-loader": "^6.6.0",
     "mini-css-extract-plugin": "^2.5.3",

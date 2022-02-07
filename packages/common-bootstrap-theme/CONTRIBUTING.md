@@ -15,3 +15,13 @@ Developers upgrading this package for newer versions of Bootstrap should:
 Note that pages on [NPMJS.com](https://www.npmjs.com/) can be cached for up to an hour so the new version might not be immediately visible.
 
 You may also wish to additionally test the actual published package. In a project that uses it try installing that specific version ie `npm i @ietf-tools/common-bootstrap-theme@YOUR_NEW_VERSION`.
+
+## Troubleshooting
+
+### Error during publishing 'Couldn't publish package: "https://registry.yarnpkg.com/@ietf-tools%2fcommon-bootstrap-theme: You must sign up for private packages"'
+
+For historical reasons package names with organisation namespaces such as `@ietf-tools` are private by default, and so must be declared public with a command line flag `--access public` ([see this comment on `@org` packages](https://github.com/lerna/lerna/issues/1821#issuecomment-448473941)).
+
+So the full publish command would be `yarn publish --access public`.
+
+This should only be necessary the first time the package was published, however it is included here on the off chance that this error occurs again.
