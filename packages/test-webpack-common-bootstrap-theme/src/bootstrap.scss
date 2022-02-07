@@ -1,0 +1,5 @@
+// These two imports refer to node_modules packages
+// As such Webpack (or equivalent) must be used to resolve imports correctly.
+// Imports won't work from Sass command line tools.
+@import "@ietf-tools/common-bootstrap-theme/scss/ietf-theme.scss";
+@import "bootstrap/scss/bootstrap";

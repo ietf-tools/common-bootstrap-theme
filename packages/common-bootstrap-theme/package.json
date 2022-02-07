@@ -1,0 +1,24 @@
+{
+  "name": "@ietf-tools/common-bootstrap-theme",
+  "version": "0.0.1",
+  "description": "IETF Common Bootstrap theme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ietf-tools/common-bootstrap-theme.git"
+  },
+  "keywords": [
+    "css",
+    "theme",
+    "bootstrap",
+    "ietf"
+  ],
+  "author": "IETF",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/ietf-tools/common-bootstrap-theme/issues"
+  },
+  "homepage": "https://github.com/ietf-tools/common-bootstrap-theme#readme",
+  "peerDependencies": {
+    "bootstrap": "~5.1.0"
+  }
+}

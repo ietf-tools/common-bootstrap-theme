@@ -1,0 +1,7 @@
+{
+  "name": "monorepo-common-bootstrap-theme",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
