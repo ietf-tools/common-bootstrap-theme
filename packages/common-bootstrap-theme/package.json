@@ -1,6 +1,8 @@
 {
   "name": "@ietf-tools/common-bootstrap-theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "private": false,
+  "main": "index.js",
   "description": "IETF Common Bootstrap theme",
   "repository": {
     "type": "git",
