@@ -1,4 +1,15 @@
-# IETF Common Bootstrap Theme
+<div align="center">
+    
+<img src="https://raw.githubusercontent.com/ietf-tools/common/main/assets/logos/common-bootstrap-theme.svg" alt="IETF Bootstrap 5 Theme" height="125" />
+    
+[![Release](https://img.shields.io/github/release/ietf-tools/common-bootstrap-theme.svg?style=flat&maxAge=600)](https://github.com/ietf-tools/common-bootstrap-theme/releases)
+[![License](https://img.shields.io/github/license/ietf-tools/common-bootstrap-theme)](https://github.com/ietf-tools/common-bootstrap-theme/blob/main/LICENSE)
+
+##### IETF Common Bootstrap Theme
+    
+</div>
+
+---
 
 A common [Bootstrap](https://getbootstrap.com/) theme for \*.ietf.org websites (fonts, colors, etc.), as well as a testing harness.
 
